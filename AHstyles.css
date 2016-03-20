@@ -17,6 +17,7 @@ body {
 
 a {
 	color: #680E4B;
+	text-decoration: none;
 }
 
 header { 
@@ -37,6 +38,15 @@ header .breadcrumb li {
 	float: left;
 }
 
+header .breadcrumb li.breadcrumb-active a {
+	text-decoration: underline;
+}
+
+header .breadcrumb li a {
+	color: #B2E4DB;
+}
+
 header .breadcrumb li:not(:last-child):after {
 	content: "|";
+	padding: 0 5px;
 }
