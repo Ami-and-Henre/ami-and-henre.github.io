@@ -1,10 +1,25 @@
+/*dark navy #1A1423
+grey blue: #556F7A
+mint: #B2E4DB
+berry: #680E4B
+slate: #798086*/
+
 body
 {
 	margin: 0;
-	background-color: #FCFFFE;
+	background-color: #E8F9FF;
 	font-family: 'Lato', sans-serif;
 	color: #1C2541;
 	padding-left: 165px; 
 	padding-right: 165px;
+
+}
+header
+{ 
+	margin-left: -165px;
+	margin-right: -165px;
+	background-color: #1A1423; 
+	color: #B2E4DB;
+	text-align: center;
 
 }
