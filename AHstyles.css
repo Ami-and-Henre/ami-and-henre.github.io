@@ -15,10 +15,28 @@ body {
 	padding-right: 165px;
 }
 
+a {
+	color: #680E4B;
+}
+
 header { 
 	margin-left: -165px;
 	margin-right: -165px;
 	background-color: #1A1423; 
 	color: #B2E4DB;
 	text-align: center;
+}
+
+header .breadcrumb {
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+}
+
+header .breadcrumb li {
+	float: left;
+}
+
+header .breadcrumb li:not(:last-child):after {
+	content: "|";
 }
