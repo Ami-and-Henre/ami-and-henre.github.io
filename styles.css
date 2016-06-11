@@ -20,3 +20,25 @@ body {
 	margin-bottom: -20px;
 	position: relative;
 }
+
+.banner {
+  width: 100%;
+  height: 100%;
+  background-image: url('img/farmhousecloseup.jpg');
+  background-size: cover;
+  background-position-y: 60%;
+  margin: -20px auto 50px auto;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.banner-fade {
+	background-color: hsla(0, 0%, 100%, 0.75);
+}
+
+.banner h1 {
+	padding-top: 100px;
+	color: hsl(230, 18%, 39%);
+}
