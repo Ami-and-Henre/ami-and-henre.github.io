@@ -6,9 +6,16 @@ berry:     #680E4B
 slate:     #798086
 */
 
+html {
+	position: relative;
+	min-height: 100%;
+}
+
 body {
 	/*padding-top: 70px;*/
 	font-family: "Lato", sans-serif;
+	/* Margin bottom by footer height */
+	margin-bottom: 120px;
 }
 
 .embed-container {
@@ -22,12 +29,12 @@ body {
 }
 
 .banner {
-  width: 100%;
-  height: 100%;
-  background-image: url('img/farmhousecloseup.jpg');
-  background-size: cover;
-  background-position-y: 60%;
-  margin: -20px auto 50px auto;
+	width: 100%;
+	height: 100%;
+	background-image: url('img/farmhousecloseup.jpg');
+	background-size: cover;
+	background-position-y: 60%;
+	margin: -20px auto 50px auto;
 }
 
 .banner img {
@@ -41,4 +48,14 @@ body {
 .banner h1 {
 	padding-top: 100px;
 	color: hsl(208, 13%, 41%);
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	margin-top: 60px;
+	background-color: #f5f5f5;
 }
