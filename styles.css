@@ -18,6 +18,10 @@ body {
 	margin-bottom: 120px;
 }
 
+section ul li {
+	font-size: 21px;
+}
+
 .embed-container {
 	padding-left: 20px;
 	padding-right: 20px;
